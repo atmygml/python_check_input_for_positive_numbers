@@ -30,9 +30,7 @@ def check_num():
         if i == (len(number_input)-1):
           print("\nYou have entered a valid input.\n")
           number_entered = int(number_input)
-          #print(f"\nThe number you have entered is {number_entered}.\n")
           print("You may proceed.\n")
-          #print("Program ends.\n")
           valid_input = True
           return number_entered
 
